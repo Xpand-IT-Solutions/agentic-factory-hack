@@ -353,7 +353,7 @@
       "apiVersion": "2025-04-01-preview",
       "name": "[format('{0}/{1}', variables('aiFoundryName'), 'gpt-4o-mini')]",
       "sku": {
-        "capacity": 50,
+        "capacity": 20,
         "name": "GlobalStandard"
       },
       "properties": {
@@ -372,7 +372,7 @@
       "apiVersion": "2025-04-01-preview",
       "name": "[format('{0}/{1}', variables('aiFoundryName'), 'gpt-4.1')]",
       "sku": {
-        "capacity": 50,
+        "capacity": 20,
         "name": "GlobalStandard"
       },
       "properties": {
