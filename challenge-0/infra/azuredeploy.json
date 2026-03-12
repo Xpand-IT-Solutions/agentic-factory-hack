@@ -354,7 +354,7 @@
       "name": "[format('{0}/{1}', variables('aiFoundryName'), 'gpt-4o-mini')]",
       "sku": {
         "capacity": 20,
-        "name": "GlobalStandard"
+        "name": "Standard"
       },
       "properties": {
         "model": {
@@ -373,7 +373,7 @@
       "name": "[format('{0}/{1}', variables('aiFoundryName'), 'gpt-4.1')]",
       "sku": {
         "capacity": 20,
-        "name": "GlobalStandard"
+        "name": "Standard"
       },
       "properties": {
         "model": {
